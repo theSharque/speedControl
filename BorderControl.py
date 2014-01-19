@@ -52,6 +52,5 @@ with open(filename, "w") as f:
 						speed = ( speed / 100 ) * int( outerSpeed )
 
 					fNew = 'F'+str(int(speed))
-					print fOld+"->"+fNew
 					line = line.replace(fOld, fNew)
 		f.write(line)
